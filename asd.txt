@@ -1,0 +1,10 @@
+margin
+padding 10px (arriba-abajo) 10px (izquierda-derecha)
+box-sizing
+
+width
+height
+background 
+
+font-family: opc1, opc2
+

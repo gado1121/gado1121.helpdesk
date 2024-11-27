@@ -1,0 +1,171 @@
+body {
+    font-family: calibri;
+}
+
+h1 {
+    background-color: beige;
+    padding: 8px 15px;     
+}
+
+.contenedor-imagen {
+    display: flex;
+}
+
+.contenedor-imagen img{
+    width: 100%;
+}
+
+#oficial {
+    width: 120px;
+    height: 60px;
+}
+
+#sagrado img{
+    border-radius: 100%;
+    width: 220px;
+    height: 220px;
+    border: 3px solid white;    
+}
+
+#inf {
+    position: relative;
+}
+
+#inf #fondo {
+    display: inline-block;
+    width: 100%;
+    height: 40px;
+}
+
+#inf .presentacion {
+    position: absolute;
+    top: 50%;
+    left: 0;    
+    display: flex;
+    width: 100%;
+    color: white;
+    padding: 50px;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 10px;
+    transform: translateY(-50%);
+    /* width: calc(100% - 220px);  -- Usar cuando la imagen no modifique junto con el tamaño de la pantalla */
+    
+}
+
+
+#inf .presentacion .presentacion-contenedor {
+    margin-top: 2px;
+    transform: translateY(25%);  
+    display: inline-block;
+    margin-left: 100px;
+    color: rgb(233, 224, 226);    
+    width: calc(100% - 220px); 
+}
+
+#inf .presentacion p {
+    margin-top: 50px;
+}
+
+
+/* 
+PARA OTRA FORMA DE CENTRAR (APORTES PLATZI)
+{
+    display: grid;
+    place-items: center;
+    } 
+*/
+
+/* ESTILOS DEL MAIN  */
+
+main {
+    padding: 30px;    
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    gap: 10px; /* Espacio entre íconos */
+    list-style: none; /* Elimina los puntos de lista */
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+    
+}
+
+.social-icons li {
+    display: flex;
+}
+
+.social-icons img {
+    width: 60px; /* Ajusta el tamaño del ícono */
+    height: 60px;
+    border-radius: 10px;
+}
+
+/* INTENTOS:  */
+
+/* main .social-icons  {
+    display: flex;
+    
+}
+
+main .social-icons .social-icon  {
+    display: flex;
+    
+} */
+
+
+/* #hltv {
+    display: flex;
+    width: 40px;
+    height: 40px;
+}
+
+#X {
+    display: flex;
+    width: 40px;
+    height: 40px;
+}
+
+#twitch {
+    display: flex;
+    width: 40px;
+    height: 40px;
+} */
+
+
+
+/* main .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    list-style: none;
+}
+
+main .social-icons li {
+    margin-left: 9px;
+    
+}
+
+main .social-icons .social-icon {    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    
+    border-radius: 50px;
+    width: 100%;
+    height: 100%;
+}
+
+main .social-icons #X {
+    display: flex;
+    width: 20px;
+    height: 20px;
+}
+
+main .social-icons #hltv {
+    width: 20px;
+    height: 20px;
+} */
